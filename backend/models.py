@@ -1,4 +1,4 @@
-from backend import models, schemas, crud, recommender
+#from backend import models, schemas, crud, recommender
 from sqlalchemy import Column , Integer , String , Float, Boolean
 from db import Base
 
