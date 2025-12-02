@@ -1,6 +1,6 @@
-from backend import models, schemas, crud, recommender
+from backend import models
 from sqlalchemy.orm import Session
-import models
+#import models
 
 def recommend_pgs(db:Session, location: str=None, max_price: int = None):
     query= db.query(models.PG)

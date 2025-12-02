@@ -1,6 +1,6 @@
-from backend import models, schemas, crud, recommender
+from backend import models, schemas
 from sqlalchemy.orm import Session
-import models , schemas
+#import models , schemas
 
 # Create PG
 def create_pg(db:Session, pg :schemas.PGCreate):

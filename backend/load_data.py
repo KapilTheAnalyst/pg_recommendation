@@ -1,7 +1,7 @@
-from backend import models, schemas, crud, recommender
+from backend import models
 import pandas as pd
 from db import SessionLocal, engine
-import models
+#import models
 
 # Make sure tables are created
 models.Base.metadata.create_all(bind=engine)
