@@ -1,6 +1,6 @@
-from backend import models
+from . import models
 import pandas as pd
-from db import SessionLocal, engine
+from .db import SessionLocal, engine
 #import models
 
 # Make sure tables are created

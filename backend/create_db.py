@@ -1,5 +1,5 @@
-from backend import models
-from db import Base, engine
+from . import models
+from .db import Base, engine
 #import models
 
 # create all database tables 

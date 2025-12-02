@@ -1,4 +1,4 @@
-from backend import models
+from . import models
 from sqlalchemy.orm import Session
 #import models
 
