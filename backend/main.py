@@ -1,7 +1,10 @@
+from backend import models, schemas, crud, recommender
 from fastapi import FastAPI , Depends , HTTPException
 from sqlalchemy .orm import Session
 import models , schemas , crud , recommender
 from db import SessionLocal, engine
+
+
 
 
 # create all database tables 

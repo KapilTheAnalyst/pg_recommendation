@@ -1,3 +1,4 @@
+from backend import models, schemas, crud, recommender
 import pandas as pd
 from db import SessionLocal, engine
 import models

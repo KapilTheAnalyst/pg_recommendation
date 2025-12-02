@@ -1,3 +1,4 @@
+from backend import models, schemas, crud, recommender
 from db import Base, engine
 import models
 
